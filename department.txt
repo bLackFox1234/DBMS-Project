@@ -1,0 +1,8 @@
+CREATE TABLE DEPARTMENT(
+        deptid INT,
+        deptname VARCHAR(20),
+        deploc varchar(20),
+        hodid int,
+        PRIMARY KEY(deptid),
+FOREIGN KEY(deptid) REFERENCES FACULTY(deptid),
+FOREIGN KEY(hodid) REFERENCES FACULTY(fid));

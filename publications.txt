@@ -1,0 +1,8 @@
+CREATE TABLE PUBLICATIONS(
+       issn INT,
+       ptitle VARCHAR(20),
+       dop date,
+       confename varchar(20),
+       fid int,
+       PRIMARY KEY(issn),
+FOREIGN KEY(fid) REFERENCES FACULTY(fid));

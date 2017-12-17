@@ -1,0 +1,7 @@
+CREATE TABLE ATTENDS(
+       fid INT,
+       cerid INT,
+       hours int,
+        PRIMARY KEY(fid,cerid),
+       FOREIGN KEY(fid) REFERENCES FACULTY(fid),
+       FOREIGN KEY(cerid) REFERENCES WORKSHOPS(cerid));

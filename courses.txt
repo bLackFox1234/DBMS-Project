@@ -1,0 +1,6 @@
+CREATE TABLE COURSES(
+       cno INT,
+       cname VARCHAR(20),
+       ccredit INT,
+       deptid INT,
+       PRIMARY KEY(cno));

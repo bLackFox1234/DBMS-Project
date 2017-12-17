@@ -1,0 +1,6 @@
+CREATE TABLE HANDLES(
+        fid INT,
+        cno INT,
+        PRIMARY KEY(fid,cno)
+FOREIGN KEY(fid) REFERENCES FACULTY(fid),
+FOREIGN KEY(cno) REFERENCES COURSES(cno));

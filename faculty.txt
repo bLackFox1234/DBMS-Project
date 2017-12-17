@@ -1,0 +1,11 @@
+CREATE TABLE FACULTY(
+        fid varchar(10),
+        fname VARCHAR(20),
+        fdoj date,
+        fdegree varchar(20),
+        fsalary float(6,2)
+        fdob date,
+        fage int,
+        faddress varchar(20),
+        deptid INT,
+        PRIMARY KEY(fid));

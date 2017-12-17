@@ -1,0 +1,6 @@
+CREATE TABLE WORKSHOPS(
+        cerid INT,
+        worname VARCHAR(20),
+        instrname VARCHAR(20),
+        wordate date,
+        PRIMARY KEY(cerid));
